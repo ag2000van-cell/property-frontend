@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ВОт новый код: <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -165,6 +165,7 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
+
 
         /* CTA Buttons */
         .btn {
@@ -743,6 +744,7 @@
         </div>
     </section>
 
+
     <!-- About Section -->
     <section class="about" id="about">
         <div class="section-container">
@@ -805,3 +807,201 @@
             </form>
         </div>
     </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="faq-container">
+            <div class="section-title">
+                <h2>Часто задаваемые вопросы</h2>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Как получить субсидированную ипотеку со ставкой 12,25%?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Субсидированная ипотека доступна для определенных категорий граждан. Мы помогаем оценить вашу квалификацию, подготовить все необходимые документы и провести процесс оформления. Ставка 12,25% включает различные государственные льготы и программы.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Сколько времени занимает покупка недвижимости?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Сроки зависят от типа объекта. Для вторичного жилья обычно 30-45 дней, для новостройки 15-30 дней. Мы стремимся ускорить процесс и минимизировать бюрократию на каждом этапе.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Какие документы нужны для оформления ипотеки?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Основной набор: паспорт, справка о доходах (обычно 2-НДФЛ), сведения о трудоустройстве, выписка из ЕГРН (для существующего имущества). Полный список зависит от конкретного банка. Наши специалисты помогут подготовить всё необходимое.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Работаете ли вы с коммерческой недвижимостью?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Да, мы специализируемся на коммерческой недвижимости как на объекты инвестиций. Помогаем с анализом доходности, подбором объектов под ваши инвестиционные цели и оформлением всех документов.
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Какова ваша комиссия за продажу?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Комиссия за продажу вторичного жилья составляет 3% от стоимости объекта. Для новостроек подбор бесплатен. Все условия обсуждаются индивидуально перед началом сотрудничества.
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Могу ли я получить консультацию перед заявкой?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-content">
+                        Конечно! Первая консультация для вас абсолютно бесплатна. Позвоните нам или заполните форму на сайте. Наши эксперты ответят на все ваши вопросы и помогут определиться с первыми шагами.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p style="margin-bottom: 1rem; color: rgba(255,255,255,0.8);">
+                    г. Москва, ул. Дмитровский проезд, дом 1<br>
+                    Телефон: <a href="tel:+79154399884">+7 (915) 439-98-84</a>
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Навигация</h3>
+                <a onclick="scrollToSection('hero')">Главная</a>
+                <a onclick="scrollToSection('services')">Услуги</a>
+                <a onclick="scrollToSection('about')">О нас</a>
+                <a onclick="scrollToSection('contact')">Заявка</a>
+            </div>
+            <div class="footer-section">
+                <h3>Партнеры</h3>
+                <p style="color: rgba(255,255,255,0.8);">ЦИАН • Яндекс.Недвижимость • Авито • ДомКлик • М2</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ProNed – Агентство недвижимости. Все права защищены.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+
+        function toggleService(card) {
+            const allCards = document.querySelectorAll('.service-card');
+            allCards.forEach(c => {
+                if (c !== card) c.classList.remove('active');
+            });
+            card.classList.toggle('active');
+        }
+
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', function() {
+                const item = this.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+
+
+        // Form Validation
+        const form = document.getElementById('contactForm');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const email = document.getElementById('email').value.trim();
+
+
+            let isValid = true;
+
+
+            // Validate name
+            if (!name) {
+                document.getElementById('nameError').classList.add('show');
+                isValid = false;
+            } else {
+                document.getElementById('nameError').classList.remove('show');
+            }
+
+
+            // Validate phone
+            const phoneRegex = /^[\d\s\-\+\(\)]{10,}$/;
+            if (!phoneRegex.test(phone)) {
+                document.getElementById('phoneError').classList.add('show');
+                isValid = false;
+            } else {
+                document.getElementById('phoneError').classList.remove('show');
+            }
+
+
+            // Validate email if provided
+            if (email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    document.getElementById('emailError').classList.add('show');
+                    isValid = false;
+                } else {
+                    document.getElementById('emailError').classList.remove('show');
+                }
+            }
+
+
+            if (isValid) {
+                alert(`Спасибо, ${name}! Ваша заявка принята. Мы свяжемся с вами в ближайшее время.`);
+                form.reset();
+            }
+        });
+    </script>
+</body>
+</html>
